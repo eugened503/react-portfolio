@@ -6,7 +6,7 @@ function MobileMenu(props) {
   return (
     <div className={`${props.visibilityWrapper} wrapper`}>
       <h2 className="wrapper__info-name">
-        Danny<span className="header__info-point">.</span>
+        Portfolio<span className="header__info-point">.</span>
       </h2>
       <label
         htmlFor="check-menu"

@@ -35,9 +35,9 @@ function About() {
               <li className="about__value-item">Москва</li>
               <li className="about__value-item">
                 <ul className="about__social">
-                  <li className="about__social-item"><a href="https://vk.com/id152488103"><i className="about__social-link fab fa-vk"></i></a></li>
-                  <li className="about__social-item"><a href="https://www.instagram.com/don__lario/"><i className="about__social-link fab fa-instagram"></i></a></li>
-                  <li className="about__social-item"><a href="https://www.linkedin.com/in/евгений-ларионов-10370b202/"><i className="about__social-link fab fa-linkedin"></i></a></li>
+                  <li className="about__social-item"><a href="https://vk.com/id152488103" rel="noreferrer" target="_blank"><i className="about__social-link fab fa-vk"></i></a></li>
+                  <li className="about__social-item"><a href="https://www.instagram.com/don__lario/" rel="noreferrer" target="_blank"><i className="about__social-link fab fa-instagram"></i></a></li>
+                  <li className="about__social-item"><a href="https://www.linkedin.com/in/евгений-ларионов-10370b202/" rel="noreferrer" target="_blank"><i className="about__social-link fab fa-linkedin"></i></a></li>
                 </ul>
               </li>
             </ul>

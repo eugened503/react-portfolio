@@ -47,20 +47,29 @@ function ImagePopup(props) {
         <div className="popup__container-button">
           {props.card.category !== "back-end" ? (
             <>
-              <a href={props.card.link_project} className="link-button">
+              <a
+                href={props.card.link_project}
+                className="link-button"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Посмотреть проект
               </a>
               <a
                 href={props.card.link_code}
                 className="link-button link-button_color"
+                rel="noreferrer"
+                target="_blank"
               >
                 Посмотреть код
-              </a>{" "}
+              </a>
             </>
           ) : (
             <a
               href={props.card.link_code}
               className="link-button_position link-button link-button_color"
+              rel="noreferrer"
+              target="_blank"
             >
               Посмотреть код
             </a>

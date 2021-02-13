@@ -104,7 +104,7 @@ const DataObject = [
     description:
       "Репозиторий для полноценного API проекта Mesto, включающий авторизацию и регистрацию пользователей, операции с карточками и пользователями.",
     stack: "Nodejs, Express, MongoDB",
-    link_code: "https://github.com/eugened503/news-explorer-api",
+    link_code: "https://github.com/eugened503/react-mesto-api-full",
   },
   {
     image: kanban,
