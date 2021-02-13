@@ -1,0 +1,244 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+.about {
+  padding-top: 20px;
+  margin-top: 79px;
+  width: 100%;
+  min-height: 380px;
+  font-style: normal;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+
+@media screen and (min-width: 996px) and (max-width: 1199px) {
+  .about {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .about {
+    padding: 37px 0 30px 0;
+    margin-top: 56px;
+    width: 100%;
+    min-height: 380px;
+    font-style: normal;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+  }
+}
+
+.about__value-img {
+  margin: 15px 0;
+}
+
+@media screen and (max-width: 995px) {
+  .about__value-img {
+    display: none;
+  }
+}
+
+.about__container {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__container {
+    max-width: 1170px;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 996px) and (max-width: 1199px) {
+  .about__container {
+    max-width: 940px;
+    padding: 0 15px;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .about__container {
+    max-width: 710px;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+}
+
+.about__info {
+  max-width: 50%;
+}
+
+@media screen and (max-width: 995px) {
+  .about__info {
+    max-width: 100%;
+  }
+}
+
+.about__info-title {
+  margin: 21px 0 0 0;
+}
+
+@media screen and (max-width: 995px) {
+  .about__info-title {
+    font-size: 24px;
+    margin: 21px auto 10px auto;
+  }
+}
+
+.about__info-subtitle {
+  margin: 4px 0 0 0;
+  line-height: 1.6;
+  color: #5c5c5c;
+}
+
+@media screen and (max-width: 995px) {
+  .about__info-subtitle {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #5c5c5c;
+  }
+}
+
+.about__info-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  font-style: normal;
+  margin: 23px 0 0 0;
+}
+
+.about__info-contacts_margin {
+  margin: 20px 0 0 0;
+}
+
+.about__key {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.about__value {
+  padding: 0;
+  margin: 0 0 0 40px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.about__key-item {
+  list-style-type: none;
+  margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 379px) {
+  .about__key-item_margin {
+    margin-bottom: 10px;
+  }
+}
+
+.about__value-item {
+  list-style-type: none;
+  margin: 0 0 10px 0;
+  color: #5c5c5c;
+}
+
+.about__social {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.about__social-item {
+  padding: 0;
+  margin: 0 28px 0 0;
+  list-style-type: none;
+}
+
+.about__social-link {
+  color: black;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__img {
+    height: 319px;
+    margin-top: 15px;
+    max-width: 50%;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 996px) and (max-width: 1199px) {
+  .about__img {
+    height: 255px;
+    margin-top: 15px;
+    max-width: 50%;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .about__img {
+    width: 100%;
+    height: 100%;
+    order: -1;
+  }
+}
+
+.button__container {
+  margin: 30px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+  .button__container {
+    margin: 12px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.button__container-item {
+  width: 175px;
+  height: 45px;
+  border: none;
+  font-weight: normal;
+  font-size: 14px;
+  border-radius: 2px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+  .button__container-item {
+    width: 100%;
+  }
+}
+
+.button__container-item_color {
+  color: white;
+  background-color: #00aced;
+  margin-right: 33px;
+}
+
+@media screen and (max-width: 480px) {
+  .button__container-item_color {
+    color: white;
+    background-color: #00aced;
+    margin-bottom: 20px;
+  }
+}
+
+.button__container-item:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.about__info-subtitle_margin {
+  margin: 0 auto 20px auto;
+}

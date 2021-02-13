@@ -1,0 +1,119 @@
+.portfolio__card-item {
+  width: 100%;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+  display: grid;
+  grid-template-areas: "image" "title" "date";
+  grid-template-columns: 1fr;
+  grid-template-rows: 270px auto auto;
+}
+
+@media screen and (min-width: 996px) and (max-width: 1199px) {
+  .portfolio__card-item {
+    grid-template-rows: 212.5px auto auto;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .portfolio__card-item {
+    grid-template-rows: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .portfolio__card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.portfolio__image {
+  width: 100%;
+  height: 270px;
+  grid-area: image;
+  object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (min-width: 996px) and (max-width: 1199px) {
+  .portfolio__image {
+    height: 212.5px;
+    max-width: 212.5px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .portfolio__image {
+    height: 340px;
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  .portfolio__image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .portfolio__image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.portfolio__image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.portfolio__date {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: left;
+  grid-area: date;
+  max-width: 270px;
+  height: auto;
+  color: #b6bcbf;
+  margin: 0;
+}
+
+@media screen and (max-width: 995px) {
+  .portfolio__date {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+.portfolio__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.55;
+  min-height: 20px;
+  max-width: 270px;
+  grid-area: title;
+  margin: 10px 0 0 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 530px) {
+  .portfolio__title {
+    font-size: 16px;
+    line-height: 1.66;
+  }
+}
+
+.portfolio__title:hover {
+  color: #00aced;
+  cursor: pointer;
+}

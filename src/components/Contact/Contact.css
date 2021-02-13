@@ -1,0 +1,32 @@
+.contact {
+    width: 100%;
+    min-height: 298px;
+    font-style: normal;
+    border-bottom: 1px solid #eee;
+    padding-top: 25px;
+}
+
+.contact__container {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    line-height: 1.6;
+    position: relative;
+}
+
+@media screen and (min-width: 996px) and (max-width: 1199px) {
+    .contact__container {
+        max-width: 940px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .contact__container {
+        max-width: 710px;
+        flex-direction: column;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+}

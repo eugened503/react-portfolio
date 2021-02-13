@@ -1,0 +1,12 @@
+.footer {
+  background: #efefef;
+  padding: 15px 0 15px;
+}
+
+.footer__message {
+  text-align: center;
+  color: #5c5c5c;
+  font-size: 14px;
+  line-height: 1.4;
+  box-sizing: border-box;
+}

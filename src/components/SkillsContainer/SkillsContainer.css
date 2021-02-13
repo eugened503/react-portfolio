@@ -1,0 +1,23 @@
+.skills__description {
+  color: #5c5c5c;
+  margin: 0 0 15px 0;
+}
+@media screen and (max-width: 995px) {
+  .skills__description {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0 0 22px 0;
+  }
+}
+
+.skills__name {
+  margin: 15px 0 0 0;
+}
+
+@media screen and (max-width: 995px) {
+  .skills__name {
+    font-size: 18px;
+    line-height: 1.55;
+    margin: 20px 0 5px 0;
+  }
+}

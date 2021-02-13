@@ -1,0 +1,117 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  font-style: normal;
+  transition: 0.5s all;
+}
+
+@media screen and (min-width: 996px) {
+  .header {
+    min-height: 78px;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 995px) {
+  .header {
+    min-height: 56px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .header__section {
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .header_height {
+    transition: 0.5s all;
+    background-color: #00aced;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .header__container_visibility {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .header__mobile-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 710px;
+    flex-direction: row;
+    padding: 20px 20px 0 20px;
+  }
+}
+
+.header_box-shadow {
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.header__container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__container {
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 996px) and (max-width: 1199px) {
+  .header__container {
+    max-width: 940px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .header__container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .header__info-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .header__info-mobile {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+  }
+}
+
+.header__info-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.header__info-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.header__info-point {
+  color: #00aced;
+}
