@@ -18,6 +18,7 @@ function Education() {
           {DataEducation.map((item, index) => {
             return (
               <ExperienceItem
+                border={item.border}
                 key={index}
                 name={item.name}
                 company={item.company}
