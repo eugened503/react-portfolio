@@ -9,6 +9,8 @@ import backendMesto from "./../../images/backend_3.jpg";
 import kanban from "./../../images/kanban.jpg";
 import kaliningrad from "./../../images/kaliningrad.jpg";
 import chuck from "./../../images/chuck.jpg";
+import slider from "./../../images/slider.jpg";
+import table from "./../../images/table.jpg";
 
 const DataObject = [
   {
@@ -136,9 +138,31 @@ const DataObject = [
     category: "test",
     description:
       "Проект представляет собой двухстраничное приложение, выполненное в рамках тестового здания «Чак Норис челендж».",
-    stack: "HTML, CSS, Javascript, React-Redux",
+    stack: "HTML, CSS, Javascript, React, React-Redux",
     link_project: "https://eugened503.github.io/chuck-norris-react-redux/",
     link_code: "https://github.com/eugened503/chuck-norris-react-redux",
+  },
+  {
+    image: slider,
+    date: "март, 2021",
+    title: "«Slider»",
+    category: "test",
+    description:
+      "Работа представляет собой тестовое задание для «Crazy Panda».",
+    stack: "HTML, CSS, Jquery, Jquery-ui",
+    link_project: "https://slider-jquery.vercel.app/",
+    link_code: "https://github.com/eugened503/slider-jquery",
+  },
+  {
+    image: table,
+    date: "март, 2021",
+    title: "«Интерактивная таблица»",
+    category: "test",
+    description:
+      "Работа представляет собой тестовое задание для «Crazy Panda».",
+    stack: "HTML, CSS, React, Bootstrap",
+    link_project: "https://react-table-filter-pagination.vercel.app/",
+    link_code: "https://github.com/eugened503/react-table-filter",
   },
 ];
 

@@ -12,13 +12,14 @@ function About() {
             Обо мне<span className="header__info-point">.</span>
           </h1>
           <p className="about__info-subtitle">
-            Меня зовут Евгений Ларионов, я начинающий Frontend-разработчик. В
+            Меня зовут Евгений Ларионов. Я начинающий Frontend-разработчик. В
             декабре 2020 года я закончил курсы Яндекс Практикума по профессии
             «Веб-разработчик». На курсах я изучил JavaScript, HTML и CSS, освоил
-            React-разработку приложений и сборку на Webpack. Также изучил основы
+            React-разработку приложений и сборку на Webpack. Ко всему прочему, я
+            научился применять систему контроля версий Git и изучил основы
             бэкенда: серверную разработку на Node.js, использование Express.js,
-            MongoDB. Научился применять систему контроля версий Git. В настоящее
-            время самостоятельно осваиваю React-Native и TypeScript.
+            MongoDB. В настоящее время ищу работу по специальности
+            «Frontend-разработчик».
           </p>
           <div className="about__info-contacts">
             <ul className="about__key">
@@ -35,9 +36,33 @@ function About() {
               <li className="about__value-item">Москва</li>
               <li className="about__value-item">
                 <ul className="about__social">
-                  <li className="about__social-item"><a href="https://vk.com/id152488103" rel="noreferrer" target="_blank"><i className="about__social-link fab fa-vk"></i></a></li>
-                  <li className="about__social-item"><a href="https://www.instagram.com/don__lario/" rel="noreferrer" target="_blank"><i className="about__social-link fab fa-instagram"></i></a></li>
-                  <li className="about__social-item"><a href="https://www.linkedin.com/in/евгений-ларионов-10370b202/" rel="noreferrer" target="_blank"><i className="about__social-link fab fa-linkedin"></i></a></li>
+                  <li className="about__social-item">
+                    <a
+                      href="https://vk.com/id152488103"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <i className="about__social-link fab fa-vk"></i>
+                    </a>
+                  </li>
+                  <li className="about__social-item">
+                    <a
+                      href="https://www.instagram.com/don__lario/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <i className="about__social-link fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li className="about__social-item">
+                    <a
+                      href="https://www.linkedin.com/in/евгений-ларионов-10370b202/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <i className="about__social-link fab fa-linkedin"></i>
+                    </a>
+                  </li>
                 </ul>
               </li>
             </ul>

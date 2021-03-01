@@ -19,7 +19,7 @@ const DataSkills = [
   {
     name: "ЯП, JavaScript-библиотеки, фреймворки",
     description:
-      "Javascript, typescript, React.js, React Native, MirageJs, Mapbox.",
+      "Javascript, Typescript, React.js, React Native, MirageJs, Mapbox",
     skills: "skills_border-none",
   },
 ];
