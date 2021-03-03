@@ -1,0 +1,9 @@
+.blockquote {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 23px 0 0 0;
+}
+.blockquote__source {
+    margin-left: auto;
+}

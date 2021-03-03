@@ -1,9 +1,8 @@
 .education {
     width: 100%;
-    min-height: 293px;
     font-style: normal;
     border-bottom: 1px solid #eee;
-    padding-top: 25px;
+    padding: 20px 0;
 }
 
 .education__container {

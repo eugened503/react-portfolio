@@ -1,10 +1,8 @@
 .experience {
   width: 100%;
-  min-height: 380px;
   font-style: normal;
   border-bottom: 1px solid #eee;
-  padding-top: 25px;
-  padding-bottom: 16px;
+  padding: 20px 0;
 }
 
 .experience__container {

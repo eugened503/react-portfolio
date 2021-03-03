@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import author from "./../../images/me_3.jpg";
-import smiletooth from "./../../images/morty.png";
+import Quote from "../Quote/Quote";
 
 function About() {
   return (
@@ -67,9 +67,7 @@ function About() {
               </li>
             </ul>
           </div>
-          <div className="about__value-img">
-            <img src={smiletooth} alt="Морти" />
-          </div>
+          <Quote/>
         </div>
         <img src={author} className="about__img" alt="фото автора" />
       </div>
