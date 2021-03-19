@@ -11,6 +11,7 @@ import kaliningrad from "./../../images/kaliningrad.jpg";
 import chuck from "./../../images/chuck.jpg";
 import slider from "./../../images/slider.jpg";
 import table from "./../../images/table.jpg";
+import sudoku from "./../../images/sudoku.jpg";
 
 const DataObject = [
   {
@@ -149,7 +150,7 @@ const DataObject = [
     category: "test",
     description:
       "Работа представляет собой тестовое задание для «Crazy Panda».",
-    stack: "HTML, CSS, Jquery, Jquery-ui",
+    stack: "HTML, CSS, Javascript, Jquery, Jquery-ui",
     link_project: "https://slider-jquery.vercel.app/",
     link_code: "https://github.com/eugened503/slider-jquery",
   },
@@ -160,9 +161,20 @@ const DataObject = [
     category: "test",
     description:
       "Работа представляет собой тестовое задание для «Crazy Panda».",
-    stack: "HTML, CSS, React, Bootstrap",
+    stack: "HTML, CSS, Javascript, React, Bootstrap",
     link_project: "https://react-table-filter-pagination.vercel.app/",
     link_code: "https://github.com/eugened503/react-table-filter",
+  },
+  {
+    image: sudoku,
+    date: "март, 2021",
+    title: "Sudoku",
+    category: "front",
+    description:
+      "Проект представляет собой браузерную игру «Судоку». Правила игры традиционные.",
+    stack: "HTML, CSS, Javascript, React",
+    link_project: "https://react-sudoku-lilac.vercel.app/",
+    link_code: "https://github.com/eugened503/react-sudoku",
   },
 ];
 

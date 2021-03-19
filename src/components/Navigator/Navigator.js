@@ -62,7 +62,7 @@ function Navigator(props) {
           ПОРТФОЛИО
         </a>
       </li>
-      <li className="navigator__info-item">
+      {/* <li className="navigator__info-item">
         <a
           className="navigator__info-link"
           href="#feedback"
@@ -70,7 +70,7 @@ function Navigator(props) {
         >
           ОТЗЫВЫ
         </a>
-      </li>
+      </li> */}
       <li className="navigator__info-item navigator__info-item_right">
         <a
           className="navigator__info-link"

@@ -8,7 +8,7 @@ import Education from "../Education/Education";
 import BackToTop from "../BackToTop/BackToTop";
 import Portfolio from "../Portfolio/Portfolio";
 import ImagePopup from "../ImagePopup/ImagePopup";
-import Feedback from "../Feedback/Feedback";
+//import Feedback from "../Feedback/Feedback";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import InfoTooltipManage from "../InfoTooltipManage/InfoTooltipManage";
@@ -81,7 +81,7 @@ function App() {
       <Experience />
       <Education />
       <Portfolio onCardClick={handleCardClick} />
-      <Feedback />
+      {/* <Feedback /> */}
       <Contact
         handleSpinner={handleSpinner}
         isSpinner={isSpinner}
