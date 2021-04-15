@@ -12,6 +12,7 @@ import chuck from "./../../images/chuck.jpg";
 import slider from "./../../images/slider.jpg";
 import table from "./../../images/table.jpg";
 import sudoku from "./../../images/sudoku.jpg";
+import form from "./../../images/form.jpg";
 
 const DataObject = [
   {
@@ -175,6 +176,17 @@ const DataObject = [
     stack: "HTML, CSS, Javascript, React",
     link_project: "https://react-sudoku-lilac.vercel.app/",
     link_code: "https://github.com/eugened503/react-sudoku",
+  },
+  {
+    image: form,
+    date: "апрель, 2021",
+    title: "Форма создания клиента",
+    category: "test",
+    description:
+      "Работа представляет собой форму создания клиента.",
+    stack: "Vue.js, Vuelidate, Bootstrap",
+    link_project: "https://vue-client-form.vercel.app/",
+    link_code: "https://github.com/eugened503/vue-client-form",
   },
 ];
 
